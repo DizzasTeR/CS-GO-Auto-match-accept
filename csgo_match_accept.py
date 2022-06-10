@@ -7,7 +7,7 @@ import pyautogui
 from win32gui import GetWindowText, GetForegroundWindow, GetWindowRect
 from PIL import Image
 
-debug_mode = True
+debug_mode = False
 
 if debug_mode:
 	def debugPrint(*args):
